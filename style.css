@@ -25,43 +25,150 @@ body {
 }
 
 .img1{
-	padding: 0% 2% 0% 2%;
+	padding: 0% 0% 0% 0%;
 	display: inline-block;
 }
 .img2{
-	padding: 0% 0% 0% 2%;
+	padding: 0% 0% 0% 5%;
 	display: inline-block;
 }
 #utf{ 
+	margin-top: 0px;
+	margin-left: 50px;
+	margin-bottom: 0px;
 	text-transform: uppercase;
 	font-family: arial; 
-	font-size: 100%;
+	font-size: 178%;
 	font-weight: bold;
 	text-align: center;
 }
 #campus{
+	margin-top: 0px;
+	margin-bottom: 20px;
 	text-transform: capitalize;
 	font-family: arial; 
-	font-size: 100%;
+	font-size: 140%;
 	font-weight: bold;
 	text-align: center;
 }
 #ministerio{
+	margin-bottom: 0px;
 	text-transform: capitalize;
-	font-size: 100%;
+	font-size: 120%;
 	text-align: center;		
 	font-family: arial;			
 }
 .universidade{
+	height: 100%;
+	width: 60%;
 	padding: 0% 0% 0% 0%;
 	display: inline-block;
 }
 .cabecalho{
-	padding: 0% 0% 0% 20%;
+	padding: 0% 0% 0% 10%;
 	margin: 2% auto auto auto;
 }
 hr{
 	margin: auto 10% auto 10%	
-}					
+}
+
+.ementa{
+	font-family: arial; 
+	margin: 2% 9.9% auto 10%;
+	border: 1px solid black;
+}
+
+#escrito_ementa{
+	margin:0.2%;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: arial; 
+}
+
+#resto_ementa{
+	margin: 0.5% auto auto 0.2%;
+	font-size: 20px;
+}	
+
+.conteudo{
+	margin: 2% 9.9% auto 10%;
+	border: 1px solid black;
+}	
+
+#conteudo_p{
+	margin:0.2% auto -15px 0.2%;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: arial; 
+}	
+
+.tabela_de_conteudo{
+	height: 500px;
+	border: 1px solid black;
+	margin: 0% 9.9% 2% 10%;
+	padding: 0px;
+}
+
+.tabela_de_conteudo #tabela{
+	font-family: arial; 
+	font-size: 18px;
+	border-collapse: collapse;
+	width: 100%;
+    height: 100%;
+	margin-bottom: -5px;
+}
+
+.tabela_de_conteudo #tabela tr:first-child{
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.tabela_de_conteudo #tabela td:first-child{
+	font-weight: bolder;
+	text-align: center;
+}
+
+.tabela_de_conteudo table tr td{
+	border:1px solid black;
+}
+
+.tabela_de_conteudo table p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.tabela_de_conteudo #def{
+	width: 40%;
+}
+
+.professor{
+	font-family: arial; 
+	margin: 2px 9.9% auto 10%;
+	border: 1px solid black;
+	font-weight: bolder;
+	text-align: center;
+	margin-bottom: 10%;
+	text-transform: uppercase;
+}
+
+.professor #tabela{
+	font-size: 18px;
+	border-collapse: collapse;
+	width: 100%;
+    height: 100%;
+	margin-bottom: 0px;
+}
+
+.professor table tr td{
+	border:1px solid black;
+}
+
+.professor #def{
+	width: 72%;
+}
+
 
 
