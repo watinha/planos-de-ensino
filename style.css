@@ -326,6 +326,63 @@ body {
 	font-weight: bold;
 }
 
+.boxGrandeComTitulo {
+	margin-top: 20px;
+	border: 1px solid #000;
+
+}
+
+.tituloBox {
+	height: 25px;
+	display: table;
+	border-bottom: 1px solid #000;
+	width: 100%;
+}
+
+.tituloBox p {
+	padding: 5px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.conteudoBox {
+	display: table;
+	width: 100%;
+}
+
+.conteudoBox ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+}
+
+.conteudoBox li {
+	margin: 0;
+	padding: 5px;
+}
+
+.assinaturas {
+	margin: 0 auto;
+	width: 90%;
+	margin-top: 70px;
+}
+
+.assinaturaLeft {
+	float: left;
+	float: left;
+	width: 45%;
+	border-top: 1px solid #000;
+	text-align: center;
+}
+
+.assinaturaRight {
+	float: left;
+	float: right;
+	width: 45%;
+	border-top: 1px solid #000;
+	text-align: center;
+}
+
 .clear {
 	clear: both;
 }
