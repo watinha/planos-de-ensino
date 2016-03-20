@@ -266,6 +266,66 @@ body {
 	font-weight: normal;
 }
 
+.programacaoContainer {
+	width: 100%;
+	margin-top: 20px;
+	display: table;
+	border: 1px solid #000;
+}
+
+.programacao {
+	text-align: center;
+	display: table;
+	width: 100%;
+	font-weight: bold;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.boxGrande3 {
+	width: 100%;	
+	border-top: 1px solid #000;
+	display: table;
+}
+
+.diaMes {
+	width: 20%;
+	float: left;
+	display: table-cell;
+	padding: 5px;
+}
+
+.conteudoAulas {
+	width: 56%;
+	float: left;
+	display: table;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	padding: 5px;
+}
+
+.conteudoAulas ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.numeroAulas {
+	width: 20%;
+	float: left;
+	display: table;
+	padding: 5px;
+}
+
+.diaMes p, .conteudoAulas p, .numeroAulas p {
+	text-align: center;
+	margin: 0;
+}
+
+.diaMes span, .conteudoAulas span, .numeroAulas span {
+	font-weight: bold;
+}
+
 .clear {
 	clear: both;
 }
