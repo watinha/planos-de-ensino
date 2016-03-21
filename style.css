@@ -1,6 +1,7 @@
 body {
 	margin: 0 auto;
-
+	width: 90%;
+	min-width: 800px;
 }
 
 .container {
@@ -423,11 +424,12 @@ body {
 }
 .universidade{
 	height: 100%;
-	width: 60%;
+	width: 50%;
 	padding: 0% 0% 0% 0%;
 	display: inline-block;
 }
 .cabecalho{
+	width: 100%;
 	padding: 0% 0% 0% 10%;
 	margin: 2% auto auto auto;
 }
@@ -437,8 +439,10 @@ hr{
 }
 
 .ementa{
+	width: 100%;
 	font-family: arial; 
-	margin: 2% 9.9% auto 10%;
+	/*margin: 2% 9.9% auto 10%;*/
+	margin: 2% 0;
 	border: 1px solid black;
 }
 
@@ -456,7 +460,9 @@ hr{
 }	
 
 .conteudo{
-	margin: 2% 9.9% auto 10%;
+	width: 100%;
+	margin: 2% 0 0;
+	/*margin: 2% 9.9% auto 10%;*/
 	border: 1px solid black;
 }	
 
@@ -469,9 +475,11 @@ hr{
 }	
 
 .tabela_de_conteudo{
+	width: 100%;
 	height: 500px;
 	border: 1px solid black;
-	margin: 0% 9.9% 2% 10%;
+	/*margin: 0% 9.9% 2% 10%;*/
+	margin: 0;
 	padding: 0px;
 }
 
@@ -509,8 +517,10 @@ hr{
 }
 
 .professor{
+	width: 100%;
 	font-family: arial; 
-	margin: 2px 9.9% auto 10%;
+	margin: 2% 0 0;
+	/*margin: 2px 9.9% auto 10%;*/
 	border: 1px solid black;
 	font-weight: bolder;
 	text-align: center;
@@ -535,8 +545,9 @@ hr{
 }
 
 .cargaHoraria{
-	margin: 0 9.9% auto 10%;
-	width: 80%;
+	width: 100%;
+	/*margin: 0 9.9% auto 10%;*/
+	width: 100%;
 	border-collapse: collapse;
 }
 
@@ -564,13 +575,12 @@ hr{
 }
 
 .presencial{
-	margin: 2% 9.9% 2% 10%;
-	width: 80%;
+	margin: 2% 0;
+	width: 100%;
 	border-collapse: collapse;
 }
 
 .tabelaAulasP #titulo{
-
 	border: 1px solid black;
 	font-family: arial;
 	text-transform: uppercase;
@@ -595,10 +605,9 @@ hr{
 	border: 1px solid black;
 }
 
-
 .formatoTitulo{
-	width: 80%;
-	margin: 0 9.9% 0 10%;
+	width: 100%;
+	margin: 0;
 	font-family: arial;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -607,8 +616,8 @@ hr{
 }
 
 #traco{
-	width: 80%;
-	margin: 0 9.9% 0 10%;
+	width: 100%;
+	margin: 0;
 	font-family: arial;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -618,8 +627,8 @@ hr{
 
 
 .textoDescricao{
-	width: 80%;
-	margin: 0 9.9% 0 10%;
+	width: 100%;
+	margin: 0;
 	font-family: arial;
 	border: 1px solid black;
 }
@@ -631,8 +640,8 @@ hr{
 }
 
 .listaAvaliacao{
-	width: 80%;
-	margin: 0 9.9% 0 10%;
+	width: 100%;
+	margin: 0;
 	text-align: left;
 	border: 1px solid black;
 }
@@ -652,8 +661,8 @@ hr{
 }
 
 .regulamento{
-	width: 80%;
-	margin: 0 9.9% 0 10%;
+	width: 100%;
+	margin: 0;
 	font-family: arial;
 	border: 1px solid black;
 }
@@ -664,8 +673,9 @@ hr{
 }
 
 .ref{
+	width: 100%;
 	font-family: arial;
-	margin: 2% 9.9% 0% 10%;
+	margin: 2% 0;
 	padding: 0%;
 	font-size: 20px;
 	border: 1px solid black;
@@ -685,10 +695,11 @@ hr{
 .ref hr{
     height: 1px;
     background: black;
-    margin-top: -17px;
+    margin: 2% 0;
+    /*margin-top: -17px;
     margin-bottom: 20px;
+    margin-left: 0px;*/
     width: 100%;
-    margin-left: 0px;
 }
 
 .referencias_parte_3{
@@ -701,8 +712,9 @@ hr{
 }
 
 .o_gerais{
+	width: 100%;
 	font-family: arial;
-	margin: 2% 9.9% 2% 10%;
+	margin: 2% 0;
 	padding: 0%;
 	font-size: 22px;
 	border: 1px solid black;
