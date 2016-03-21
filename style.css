@@ -414,7 +414,87 @@ hr{
 	border: 1px solid black;
 }
 
+.ref{
+	font-family: arial;
+	margin: 2% 9.9% 0% 10%;
+	padding: 0%;
+	font-size: 20px;
+	border: 1px solid black;
+}
 
+.referencias_parte_1{
+	font-family: arial;
+	font-size: 18px;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
 
+.referencias_parte_2{
+	margin-top: -20px ;
+}
 
+.ref hr{
+    height: 1px;
+    background: black;
+    margin-top: -17px;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-left: 0px;
+}
 
+.referencias_parte_3{
+	margin-top: -20px ;
+	margin-bottom: -20px;
+}
+
+.p_hr {
+	border-color: black;
+}
+
+.o_gerais{
+	font-family: arial;
+	margin: 2% 9.9% 2% 10%;
+	padding: 0%;
+	font-size: 22px;
+	border: 1px solid black;
+}
+
+.parte_1_o_gerais{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.parte_2_o_gerais{
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.hr_orientacoes{
+	width: 100%;
+	margin-left: 0%;
+	border:1px solid black;
+}
+
+.a_professor{
+	border-top: 1px solid black;
+	margin-left: 10%;
+	width: 600px;
+	font-family: arial;
+	text-align: center;
+	font-size: 24px;
+	font-weight: normal;
+	display: inline;
+}
+
+.a_cord{
+	margin-top: 20%;
+	border-top: 1px solid black;
+	margin-left: 40%;
+	width: 600px;
+	font-family: arial;
+	text-align: center;
+	font-size: 24px;
+	font-weight: normal;
+}
