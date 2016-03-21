@@ -414,6 +414,77 @@ hr{
 	border: 1px solid black;
 }
 
+.formatoTitulo{
+	width: 80%;
+	margin: 0 9.9% 0 10%;
+	font-family: arial;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	border: 1px solid black;
+}
+
+#traco{
+	width: 80%;
+	margin: 0 9.9% 0 10%;
+	font-family: arial;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	border: 1px solid black;
+}
+
+
+.textoDescricao{
+	width: 80%;
+	margin: 0 9.9% 0 10%;
+	font-family: arial;
+	border: 1px solid black;
+}
+
+.vazio{
+	width: 80%
+	margin: 0 9.9% 0 10%;
+	border: 1px solid black;
+}
+
+.listaAvaliacao{
+	width: 80%;
+	margin: 0 9.9% 0 10%;
+	text-align: left;
+	border: 1px solid black;
+}
+
+.listaOrdenada{
+	margin-top: 10;
+}
+
+.itemLista{
+	font-family: arial;	
+
+}
+
+.itemExtra{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.regulamento{
+	width: 80%;
+	margin: 0 9.9% 0 10%;
+	font-family: arial;
+	border: 1px solid black;
+}
+
+.highlight{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+
+
+
 
 
 
