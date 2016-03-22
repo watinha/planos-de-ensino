@@ -519,12 +519,8 @@ hr{
 .professor{
 	width: 100%;
 	font-family: arial; 
-<<<<<<< HEAD
 	margin: 2px auto auto auto;
-=======
 	margin: 2% 0 0;
-	/*margin: 2px 9.9% auto 10%;*/
->>>>>>> origin/master
 	border: 1px solid black;
 	font-weight: bolder;
 	text-align: center;
