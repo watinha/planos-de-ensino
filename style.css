@@ -395,7 +395,7 @@ body {
 	padding: 0% 0% 0% 5%;
 	display: inline-block;
 }
-#utf{ 
+.utf{ 
 	margin-top: 0px;
 	margin-left: 50px;
 	margin-bottom: 0px;
@@ -405,7 +405,7 @@ body {
 	font-weight: bold;
 	text-align: center;
 }
-#campus{
+.campus{
 	margin-top: 0px;
 	margin-bottom: 20px;
 	text-transform: capitalize;
@@ -414,7 +414,7 @@ body {
 	font-weight: bold;
 	text-align: center;
 }
-#ministerio{
+.ministerio{
 	margin-bottom: 0px;
 	text-transform: capitalize;
 	font-size: 120%;
@@ -438,11 +438,11 @@ hr{
 
 .ementa{
 	font-family: arial; 
-	margin: 2% 9.9% auto 10%;
+	margin: 2% auto auto auto;
 	border: 1px solid black;
 }
 
-#escrito_ementa{
+.escrito_ementa{
 	margin:0.2%;
 	font-size: 18px;
 	font-weight: bold;
@@ -450,17 +450,17 @@ hr{
 	font-family: arial; 
 }
 
-#resto_ementa{
+.resto_ementa{
 	margin: 0.5% auto auto 0.2%;
 	font-size: 20px;
 }	
 
 .conteudo{
-	margin: 2% 9.9% auto 10%;
+	margin: 2% auto auto auto;
 	border: 1px solid black;
 }	
 
-#conteudo_p{
+.conteudo_p{
 	margin:0.2% auto -15px 0.2%;
 	font-size: 18px;
 	font-weight: bold;
@@ -471,11 +471,11 @@ hr{
 .tabela_de_conteudo{
 	height: 500px;
 	border: 1px solid black;
-	margin: 0% 9.9% 2% 10%;
+	margin: 0% auto 2% auto;
 	padding: 0px;
 }
 
-.tabela_de_conteudo #tabela{
+.tabela_de_conteudo .tabela{
 	font-family: arial; 
 	font-size: 18px;
 	border-collapse: collapse;
@@ -484,13 +484,13 @@ hr{
 	margin-bottom: -5px;
 }
 
-.tabela_de_conteudo #tabela tr:first-child{
+.tabela_de_conteudo .tabela tr:first-child{
 	font-weight: bolder;
 	text-transform: uppercase;
 	text-align: center;
 }
 
-.tabela_de_conteudo #tabela td:first-child{
+.tabela_de_conteudo .tabela td:first-child{
 	font-weight: bolder;
 	text-align: center;
 }
@@ -510,7 +510,7 @@ hr{
 
 .professor{
 	font-family: arial; 
-	margin: 2px 9.9% auto 10%;
+	margin: 2px auto auto auto;
 	border: 1px solid black;
 	font-weight: bolder;
 	text-align: center;
@@ -518,7 +518,7 @@ hr{
 	text-transform: uppercase;
 }
 
-.professor #tabela{
+.professor .tabela{
 	font-size: 18px;
 	border-collapse: collapse;
 	width: 100%;
@@ -672,6 +672,8 @@ hr{
 }
 
 .referencias_parte_1{
+	text-transform: uppercase;
+	font-weight: bold;
 	font-family: arial;
 	font-size: 18px;
 	margin-top: -10px;
