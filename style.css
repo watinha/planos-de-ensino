@@ -464,14 +464,10 @@ hr{
 	width: 100%;
 	margin: 2% 0 0;
 	border: 1px solid black;
-}	
-
-.conteudo_p{
-	margin:0.2% auto -15px 0.2%;
-	font-size: 18px;
 	font-weight: bold;
 	text-transform: uppercase;
-	font-family: arial; 
+	font-family: arial;
+	font-size: 18px;
 }	
 
 .tabela_de_conteudo{
