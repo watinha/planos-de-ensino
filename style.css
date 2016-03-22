@@ -775,3 +775,9 @@ hr{
 	font-size: 24px;
 	font-weight: normal;
 }
+
+.aulaDada{
+	text-decoration: line-through;
+	text-decoration-color: #808080;
+	color: #808080;
+}
