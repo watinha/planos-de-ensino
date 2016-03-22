@@ -165,6 +165,9 @@
 			</div>
 			<!-- Fim Parte 06-->
 
+			<!-- ACABA DADOS GERAIS -->
+
+
 <!-- inicio ementa-->
 
 		<div class = "ementa">
@@ -230,28 +233,21 @@
 				</tr>
 			</table>
 		</div>
-
 		<!-- Tabela de Carga Horária-->
-		
 		<div class="tabelaCarga">
 			<table class="cargaHoraria">
-				<col width="25%"></col>
-				<col width="15%"></col>
-				<col width="15%"></col>
-				<col width="15%"></col>
-				<col width="15%"></col>
 				<tr>
-					<th class="elementoHeader">ano/semestre</th>
-					<th class="elementoHeader" colspan="5">carga horária <p id="aulas"> (aulas) </p> </th>
+					<th class="anoSemestre">ano/semestre</th>
+					<th class="elementoHeader" colspan="5">carga horária <p class="aulasTexto"> (aulas) </p> </th>
 				</tr>
 				<tr>
-					<td class="elementoTabela" rowspan="2">2016/01</td>
+					<td class="anoSemestre" rowspan="2">2016/01</td>
 					<td class="elementoTabela">AT</td>
 					<td class="elementoTabela">AP</td>
 					<td class="elementoTabela">APS</td>
 					<td class="elementoTabela">AD</td>
 					<td class="elementoTabela">Total</td>
-				</tr>>
+				</tr>
 				<tr>
 					<td class="elementoTabela">33</td>
 					<td class="elementoTabela">43</td>
@@ -260,49 +256,40 @@
 					<td class="elementoTabela">80</td>
 				</tr>
 				<tr>
-					<td id ="ultimaLinha" colspan="6"> AT: Atividades Teóricas, AP: Atividades Práticas, APS: Atividades Práticas Supervisionadas, AD: Atividades a Distância</td>
+					<td class ="ultimaLinha" colspan="6"> AT: Atividades Teóricas, AP: Atividades Práticas, APS: Atividades Práticas Supervisionadas, AD: Atividades a Distância</td>
 				</tr>
 			</table> 	
 		</div>
-
 		<!-- Tabela de aulas presenciais-->
-
 		<div class= "tabelaAulasP">
 			<table class="presencial">
-				<col width="22%"></col>
-				<col width="13%"></col>
-				<col width="13%"></col>
-				<col width="13%"></col>
-				<col width="13%"></col>
-				<col width="13%"></col>
-				<col width="13%"></col>
 				<tr>
-					<th colspan="7" id="titulo">dias das aulas presenciais</th>
+					<th colspan="7" class="titulo">dias das aulas presenciais</th>
 				</tr>
 				<tr>
-					<td id ="diaDaSemana">Dia da semana</td>
-					<td class="elementoTabela">Segunda</td>
-					<td class="elementoTabela">Terça</td>
-					<td class="elementoTabela">Quarta</td>
-					<td class="elementoTabela">Quinta</td>
-					<td class="elementoTabela">Sexta</td>
-					<td class="elementoTabela">Sábado</td>
+					<td class="diaDaSemana">Dia da semana</td>
+					<td class="elementoTabelaAulas">Segunda</td>
+					<td class="elementoTabelaAulas">Terça</td>
+					<td class="elementoTabelaAulas">Quarta</td>
+					<td class="elementoTabelaAulas">Quinta</td>
+					<td class="elementoTabelaAulas">Sexta</td>
+					<td class="elementoTabelaAulas">Sábado</td>
 				</tr>
 				<tr>
 					<td class="aulasSemestre">Número de aulas no semestre</td>
-					<td class="elementoTabela"> <hr> </td>
-					<td class="elementoTabela">38</td>
-					<td class="elementoTabela">38</td>
-					<td class="elementoTabela"> <hr> </td>
-					<td class="elementoTabela"> <hr> </td>
-					<td class="elementoTabela"> <hr> </td>
+					<td class="elementoTabelaAulas"> <hr> </td>
+					<td class="elementoTabelaAulas">38</td>
+					<td class="elementoTabelaAulas">38</td>
+					<td class="elementoTabelaAulas"> <hr> </td>
+					<td class="elementoTabelaAulas"> <hr> </td>
+					<td class="elementoTabelaAulas"> <hr> </td>
 				</tr>
 				
-			</table>	
+			</table> 	
 		</div>
-
+		<!-- Fim da tabela de aulas presenciais -->
 		<!-- Início de Procedimentos de ensino -->
-
+		<div class="procedimentosEnsino">
 		<div class="formatoTitulo">procedimentos de ensino</div>
 		<div class="formatoTitulo">aulas teóricas</div>
 		<div class="textoDescricao"> As aulas são expositivas utilizando como recursos slides, computador, livros e apostilas. Haverá promoções de discussões sobre os assuntos do programa da disciplina, resolução de exercícios e condução de estudos de caso.</div>
@@ -339,16 +326,13 @@
 			<p>	(REGULAMENTO DA ORGANIZAÇÃO DIDÁTICO-PEDAGÓGICA DOS CURSOS DE GRADUAÇÃO DA UTFPR - Art.36) </p>
 			<p><span class="highlight">segunda chamada: </span> as avaliações de segunda-chamada que o aluno tiver direito serão aplicadas em um único dia (no final do semestre, especificado no cronograma de aula, com todo o conteúdo da disciplina. </p>
 		</div>
-
+		</div>
 		<!--Fim de procedimentos de ensino-->
 		</div>		
 
 			<div class="clear"></div>
 
-
-			<!-- ACABA DADOS GERAIS -->
-
-
+		<div class="container">
 			<!-- COMEÇA PROGRAMACAO E CONTEUDO -->
 			<div class="programacaoContainer">
 				<div class="programacao">
@@ -416,13 +400,15 @@
 				</div>
 
 			</div>
-			
+		</div>
+
 
 			<div class="clear"></div>
 
 			<!-- TERMINA PROGRAMACAO E CONTEUDO -->
 
 		<!-- inicio referencias-->
+		<div class="container">
 		<div class="ref">
 			<div class = "referencias_parte_1">
 				<p>referências </p>
@@ -444,19 +430,24 @@
 						RAMALHO, José Antônio A. <b>HTML dinâmico. São Paulo: Berkeley, 1999. 719 p. + 1 CD-ROM. (Ramalho) ISBN
 						85-7251-522-4. </p>
 			</div>
-		</div>			
+		</div>
+		</div>
 
 		<!-- inicio das orientaçoes gerais-->
-		<div class = "o_gerais">
-			<div class ="parte_1_o_gerais">
-				orientações gerais
-			</div>
-			<hr class = "hr_orientacoes">
-			<div class="parte_2_o_gerais">
-				Demais orientações são esclarecidas pela Organização Didático-Pedagógica, disposta na Resolução 112/10 COEPP UTFPR.
+		<div class="container">
+			<div class = "o_gerais">
+				<div class ="parte_1_o_gerais">
+					orientações gerais
+				</div>
+				<hr class = "hr_orientacoes">
+				<div class="parte_2_o_gerais">
+					Demais orientações são esclarecidas pela Organização Didático-Pedagógica, disposta na Resolução 112/10 COEPP UTFPR.
+				</div>
 			</div>
 		</div>
 		<!-- fim das orientaçoes gerais-->		
+			
+		<div class="container">
 			<div class="assinaturas">
 				<div class="assinaturaLeft">
 					Assinatura do Professor
@@ -468,6 +459,7 @@
 			</div>
 
 			<div class="clear"></div>
+		</div>
 
 
 		</div>
