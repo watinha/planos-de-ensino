@@ -2,13 +2,14 @@ body {
 	margin: 0 auto;
 	width: 90%;
 	min-width: 800px;
+	font-family: Verdana;
 }
 
 .container {
 	width: 80%;
 	min-width: 800px;
 	margin: 0 auto;
-	font-family: Verdana;
+	/*font-family: Verdana;*/
 }
 
 .boxPadrao {
@@ -401,7 +402,7 @@ body {
 	margin-left: 50px;
 	margin-bottom: 0px;
 	text-transform: uppercase;
-	font-family: arial; 
+	/*font-family: arial; */
 	font-size: 178%;
 	font-weight: bold;
 	text-align: center;
@@ -410,7 +411,7 @@ body {
 	margin-top: 0px;
 	margin-bottom: 20px;
 	text-transform: capitalize;
-	font-family: arial; 
+	/*font-family: arial; */
 	font-size: 140%;
 	font-weight: bold;
 	text-align: center;
@@ -420,7 +421,7 @@ body {
 	text-transform: capitalize;
 	font-size: 120%;
 	text-align: center;		
-	font-family: arial;			
+	/*font-family: arial;*/
 }
 .universidade{
 	height: 100%;
@@ -440,7 +441,7 @@ hr{
 
 .ementa{
 	width: 100%;
-	font-family: arial; 
+	/*font-family: arial; */
 	margin: 2% auto auto auto;
 	margin: 2% 0;
 	border: 1px solid black;
@@ -451,7 +452,7 @@ hr{
 	font-size: 18px;
 	font-weight: bold;
 	text-transform: uppercase;
-	font-family: arial; 
+	/*font-family: arial; */
 }
 
 .resto_ementa{
@@ -467,11 +468,11 @@ hr{
 }	
 
 .conteudo_p{
-	margin:0.2% auto -15px 0.2%;
+	margin:0.2% auto 0 0.2%;
 	font-size: 18px;
 	font-weight: bold;
 	text-transform: uppercase;
-	font-family: arial; 
+	/*font-family: arial; */
 }	
 
 .tabela_de_conteudo{
@@ -484,7 +485,7 @@ hr{
 }
 
 .tabela_de_conteudo .tabela{
-	font-family: arial; 
+	/*font-family: arial; */
 	font-size: 18px;
 	border-collapse: collapse;
 	width: 100%;
@@ -518,7 +519,7 @@ hr{
 
 .professor{
 	width: 100%;
-	font-family: arial; 
+	/*font-family: arial; */
 	margin: 2px auto auto auto;
 	margin: 2% 0 0;
 	border: 1px solid black;
@@ -552,7 +553,7 @@ hr{
 }
 
 .elementoTabela{
-	font-family: arial;
+	/*font-family: arial;*/
 	font-weight: bold;
 	text-align: center;
 	border: 1px solid black;
@@ -561,13 +562,13 @@ hr{
 
 .elementoHeader{
 	border:1px solid black;
-	font-family: arial;
+	/*font-family: arial;*/
 	text-transform: uppercase;
 }
 
 .anoSemestre{
 	border: 1px solid black;
-	font-family: arial;
+	/*font-family: arial;*/
 	text-transform: uppercase;
 	font-weight: bold;
 	width: 25%;
@@ -580,7 +581,7 @@ hr{
 }
 
 .ultimaLinha{
-	font-family: arial;
+	/*font-family: arial;*/
 	border: 1px solid black;
 }
 
@@ -595,7 +596,7 @@ hr{
 }
 
 .elementoTabelaAulas{
-	font-family: arial;
+	/*font-family: arial;*/
 	font-weight: bold;
 	text-align: center;
 	border: 1px solid black;
@@ -603,7 +604,7 @@ hr{
 }
 
 .aulasSemestre{
-	font-family: arial;
+	/*font-family: arial;*/
 	border: 1px solid black;
 	width: 22%;
 }
@@ -611,11 +612,11 @@ hr{
 .presencial th{
 	text-transform: uppercase;
 	border: 1px solid black;
-	font-family: arial;
+	/*font-family: arial;*/
 }
 
 .diaDaSemana{
-	font-family: arial;
+	/*font-family: arial;*/
 	font-weight: bold;
 	text-align: left;
 	border: 1px solid black;
@@ -624,7 +625,7 @@ hr{
 .formatoTitulo{
 	width: 100%;
 	margin: 0;
-	font-family: arial;
+	/*font-family: arial;*/
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: left;
@@ -634,7 +635,7 @@ hr{
 #traco{
 	width: 100%;
 	margin: 0;
-	font-family: arial;
+	/*font-family: arial;*/
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
@@ -645,7 +646,7 @@ hr{
 .textoDescricao{
 	width: 100%;
 	margin: 0;
-	font-family: arial;
+	/*font-family: arial;*/
 	border: 1px solid black;
 }
 
@@ -667,7 +668,7 @@ hr{
 }
 
 .itemLista{
-	font-family: arial;	
+	/*font-family: arial;	*/
 
 }
 
@@ -679,7 +680,7 @@ hr{
 .regulamento{
 	width: 100%;
 	margin: 0;
-	font-family: arial;
+	/*font-family: arial;*/
 	border: 1px solid black;
 }
 
@@ -690,7 +691,7 @@ hr{
 
 .ref{
 	width: 100%;
-	font-family: arial;
+	/*font-family: arial;*/
 	margin: 2% 0;
 	padding: 0%;
 	font-size: 20px;
@@ -700,7 +701,7 @@ hr{
 .referencias_parte_1{
 	text-transform: uppercase;
 	font-weight: bold;
-	font-family: arial;
+	/*font-family: arial;*/
 	font-size: 18px;
 	margin-top: -10px;
 	margin-bottom: -10px;	
@@ -731,7 +732,7 @@ hr{
 
 .o_gerais{
 	width: 100%;
-	font-family: arial;
+	/*font-family: arial;*/
 	margin: 2% 0;
 	padding: 0%;
 	font-size: 22px;
@@ -758,7 +759,7 @@ hr{
 	border-top: 1px solid black;
 	margin-left: 10%;
 	width: 600px;
-	font-family: arial;
+	/*font-family: arial;*/
 	text-align: center;
 	font-size: 24px;
 	font-weight: normal;
@@ -770,7 +771,7 @@ hr{
 	border-top: 1px solid black;
 	margin-left: 40%;
 	width: 600px;
-	font-family: arial;
+	/*font-family: arial;*/
 	text-align: center;
 	font-size: 24px;
 	font-weight: normal;
