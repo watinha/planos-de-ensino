@@ -469,7 +469,7 @@ hr{
 	border: 1px solid black;
 	font-weight: bold;
 	text-transform: uppercase;
-	font-family: arial;
+	/*font-family: arial;*/
 	font-size: 18px;
 }	
 
