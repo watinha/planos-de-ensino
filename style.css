@@ -556,6 +556,7 @@ hr{
 	font-weight: bold;
 	text-align: center;
 	border: 1px solid black;
+	width: 15%;
 }
 
 .elementoHeader{
@@ -564,12 +565,21 @@ hr{
 	text-transform: uppercase;
 }
 
-#aulas{
+.anoSemestre{
+	border: 1px solid black;
+	font-family: arial;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 25%;
+	text-align: center;
+}
+
+.aulasTexto	{
 	display: inline;
 	text-transform: lowercase;
 }
 
-#ultimaLinha{
+.ultimaLinha{
 	font-family: arial;
 	border: 1px solid black;
 }
@@ -580,25 +590,31 @@ hr{
 	border-collapse: collapse;
 }
 
-.tabelaAulasP #titulo{
-	border: 1px solid black;
-	font-family: arial;
-	text-transform: uppercase;
+.titulo{
 	text-align: left;
+}
+
+.elementoTabelaAulas{
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid black;
+	width: 13%;
 }
 
 .aulasSemestre{
 	font-family: arial;
 	border: 1px solid black;
+	width: 22%;
 }
 
 .presencial th{
-	text-transform: capitalize;
+	text-transform: uppercase;
 	border: 1px solid black;
 	font-family: arial;
 }
 
-#diaDaSemana{
+.diaDaSemana{
 	font-family: arial;
 	font-weight: bold;
 	text-align: left;
